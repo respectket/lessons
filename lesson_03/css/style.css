@@ -1,0 +1,49 @@
+@import url(reset.css);
+
+.menu .menu-item {
+    color: #2f70af;
+}
+
+.main-title {
+    color: #806592;
+}
+
+h2 {
+    color: #2f70af;
+}
+
+.title-body p {
+    color: #ba848d;
+}
+
+p.text {
+    color: #ba848d;
+}
+
+.castle-desc-1, .castle-desc-2 {
+    color: #2f70af;
+}
+
+#copiright {
+    color: #806592;
+}
+
+[class*="par"] {
+    color: #ed9b00;
+}
+
+.tonnel-body * {
+    color: #15471d;
+}
+
+.lake-body > p {
+    color: #68904e;
+}
+
+.lake-body-desc ~ p {
+    color: #da6900;
+}
+
+.lake-body-desc + p {
+    color: #469598;
+}
