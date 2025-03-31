@@ -76,29 +76,26 @@
     color: #808080;
 }
 
-.product-description-text {
-    margin-bottom: 20px;
+.product-description-wrap p + p {
+    margin-top: 20px;
 }
 
-.product-description-text p + p {
-    margin-top: 30px;
+.product-description-wrap ul + p {
+    margin-top: 20px;
 }
 
-.product-description-text-end p + p {
-    margin-top: 15px;
+.product-description-wrap p + ul {
+    margin-top: 20px;
 }
 
-.product-description-benefits {
-    margin-bottom: 20px;
-}
-
-.product-description-list li + li {
+.product-description-wrap ul li + li {
     margin-top: 14px;
 }
 
-.product-description-list-item {
+.product-description-wrap ul li {
     background: url("../img/icons/check.svg") 0 0 / 20px no-repeat;
     padding-left: 28px;
+    min-height: 20px;
 }
 
 /* ===============Section-02================ */
@@ -196,6 +193,7 @@
     font-size: 14px;
     vertical-align: middle;
     overflow: hidden;
+    min-height: 60px;
 }
 
 
